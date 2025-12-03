@@ -1,6 +1,6 @@
 # js-projects
 
-All the projects I have done to learn the language. jsfp(fundamentalprojects)
+"_"
 
 ### List of some jsfp(fundamentalprojects)
 
