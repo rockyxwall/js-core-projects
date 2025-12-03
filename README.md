@@ -2,6 +2,8 @@
 
 All the core JavaScript projects I have done to learn the language.
 
+- [Password Visibility Toggle](#password-visibility-toggle)
+
 ## Password Visibility Toggle
 
 A simple interactive feature that allows users to toggle password visibility while changing the icon color dynamically. Useful for learning DOM manipulation, events, and conditional logic.
