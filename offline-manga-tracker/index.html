@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add your manga</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-section">
+        <div class="form-group">
+          <label for="mangaTitle">Manga Title</label>
+          <input type="text" id="mangaTitle" placeholder="Enter manga title" />
+        </div>
+        <div class="form-group">
+          <label for="chaptersRead">Chapters Read</label>
+          <input type="number" id="chaptersRead" placeholder="0" min="0" />
+        </div>
+        <button class="btn-add">Add Manga</button>
+      </div>
+
+      <div id="mangaContainer" class="manga-list"></div>
+      <div id="emptyState" class="empty-state">No manga added yet</div>
+    </div>
+
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">Edit Manga</div>
+        <div class="form-group">
+          <label for="editMangaTitle">Manga Title</label>
+          <input type="text" id="editMangaTitle" />
+        </div>
+        <div class="form-group">
+          <label for="editChaptersRead">Chapters Read</label>
+          <input type="number" id="editChaptersRead" min="0" />
+        </div>
+        <div class="modal-actions">
+          <button class="btn-save">Save</button>
+          <button class="btn-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
